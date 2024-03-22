@@ -1,0 +1,16 @@
+#[shell]
+#program = "tmux"
+[shell]
+program = "/bin/bash"
+args = ["-c", "tmux new 'neofetch --ascii --source ~/Downloads/wheelmelogosmall.txt && exec bash'"]
+
+[window]
+opacity = 0.95
+startup_mode = "Maximized"
+
+
+
+
+
+
+
